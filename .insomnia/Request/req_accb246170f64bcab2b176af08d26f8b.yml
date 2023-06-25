@@ -1,0 +1,33 @@
+_id: req_accb246170f64bcab2b176af08d26f8b
+type: Request
+parentId: fld_1110173767a14adab09064d9e442b2c9
+modified: 1687595017135
+created: 1686881794992
+url: "{{ _.url_base }}/api/activity-type"
+name: Activity Type
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description":"Visita",
+    	"companyRequired": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 60 %}"
+  disabled: true
+metaSortKey: -1685136555665.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

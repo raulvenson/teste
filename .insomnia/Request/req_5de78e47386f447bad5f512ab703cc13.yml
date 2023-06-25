@@ -1,0 +1,23 @@
+_id: req_5de78e47386f447bad5f512ab703cc13
+type: Request
+parentId: fld_80d90ece4f6a45be96282568eb94fa13
+modified: 1687401350000
+created: 1687401340935
+url: "{{ _.url_base }}/api/company/1"
+name: Delete Company
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+authentication: {}
+metaSortKey: -1687037893476.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

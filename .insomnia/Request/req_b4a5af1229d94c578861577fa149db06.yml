@@ -1,0 +1,33 @@
+_id: req_b4a5af1229d94c578861577fa149db06
+type: Request
+parentId: fld_4a049d1c8281435cb48968fd1ea9acb4
+modified: 1687703285481
+created: 1687596740039
+url: "{{ _.url_base }}/api/question"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"question": "Qual o nome do Passarinho que fica no pasto ?",
+    	"type": "P",
+    	"activityType":{
+    		"id": 1
+    	}
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687596740039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

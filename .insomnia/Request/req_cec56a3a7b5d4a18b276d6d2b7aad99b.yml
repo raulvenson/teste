@@ -1,0 +1,43 @@
+_id: req_cec56a3a7b5d4a18b276d6d2b7aad99b
+type: Request
+parentId: fld_80d90ece4f6a45be96282568eb94fa13
+modified: 1687592720644
+created: 1686258942907
+url: "{{ _.url_base }}/api/company"
+name: Company
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "legalName": "Empresa 2",
+      "taxId": "1234567821",
+      "fancyName": "Sample Fancy Name",
+      "nickname": "Sample Nickname",
+      "geolocation": "",
+      "zipCode": "12345-678",
+      "street": "Sample Street",
+      "neighborhood": "Sample Neighborhood",
+      "state": "Sample State",
+      "city": "Sample City",
+      "number": "123",
+      "complement": "Sample Complement"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1687037893464.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

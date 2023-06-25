@@ -1,0 +1,31 @@
+_id: req_0e40808531004dfb8f54655cce0bdbc5
+type: Request
+parentId: fld_1b3fe73cfe2d43a68cf635b1238cdbee
+modified: 1685909372551
+created: 1685906420999
+url: localhost:8080/mail
+name: Local
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"Raul Venson",
+    	"telefone":"65999271048",
+    	"email":"raulvenson@gmail.com",
+    	"mensagem":"Fazer dinheiro"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685223942270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

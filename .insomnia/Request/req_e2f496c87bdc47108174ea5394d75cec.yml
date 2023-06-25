@@ -1,0 +1,31 @@
+_id: req_e2f496c87bdc47108174ea5394d75cec
+type: Request
+parentId: fld_1b3fe73cfe2d43a68cf635b1238cdbee
+modified: 1685910043514
+created: 1685398715304
+url: https://mail-sender.fly.dev/mail
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"Raul Venson",
+    	"telefone":"65999271048",
+    	"email":"raulvenson@gmail.com",
+    	"mensagem":"mensagem"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685398715304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

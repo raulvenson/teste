@@ -1,0 +1,39 @@
+_id: req_bd149ed3788949af8e3a9fea8c60c4ef
+type: Request
+parentId: fld_8d1b923cba2f488d9d762da422896b99
+modified: 1687397298342
+created: 1687111099491
+url: "{{ _.url_base }}/api/activity/1"
+name: Activity by id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_1c67b31a124d4eb9bacb51c75c1f03e1
+    name: typeDescription
+    value: Cliente oculto
+    description: ""
+    disabled: true
+  - id: pair_44f3d46bbde34a338a334eb607df08d0
+    name: typeDescription
+    value: Visita
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1685114709020.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

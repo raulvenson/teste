@@ -1,0 +1,59 @@
+_id: req_94c7e3b2500a44cb8858719dc9faea29
+type: Request
+parentId: fld_a8688f3a0595405f95974c791ca9d9a6
+modified: 1687591098351
+created: 1687039053959
+url: "{{ _.url_base }}/api/user"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Raul Venson2",
+    	"login": "raul.venson5",
+    	"email": "raulvenson@gmailom",
+    	"password": "123",
+    	"phoneNumber": "string",
+    	"role": "USER",
+    	"userCompanyRelationships": [
+    		{
+    			"userCompanyId": {
+    				"companyId": 2
+    			}
+    		},
+    		{
+    			"userCompanyId": {
+    				"companyId": 3
+    			}
+    		},
+    		{
+    			"userCompanyId": {
+    				"companyId": 4
+    			}
+    		},
+    		{
+          "userCompanyId": {
+            "companyId": 5
+          }
+        }
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 60 %}"
+  disabled: true
+metaSortKey: -1687039053959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

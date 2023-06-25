@@ -1,0 +1,25 @@
+_id: req_09e393f0aa174ea4b78e9cc7d9d5d181
+type: Request
+parentId: fld_4a049d1c8281435cb48968fd1ea9acb4
+modified: 1687597462560
+created: 1687597458936
+url: "{{ _.url_base }}/api/question/1"
+name: by Id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687192377836.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

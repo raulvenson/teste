@@ -1,0 +1,14 @@
+_id: env_114190547af54c0094fa500b873a923b
+type: Environment
+parentId: env_6acb9906a4ab4531b40dd3a717c182d1
+modified: 1687488087437
+created: 1686401644122
+name: AWS
+data:
+  url_base: http://ec2-107-22-152-72.compute-1.amazonaws.com:8081
+dataPropertyOrder:
+  "&":
+    - url_base
+color: "#3441fe"
+isPrivate: false
+metaSortKey: 1686401612489

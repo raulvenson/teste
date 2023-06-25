@@ -1,0 +1,37 @@
+_id: req_308ddf137f894a51a206c36949dd4b17
+type: Request
+parentId: fld_80d90ece4f6a45be96282568eb94fa13
+modified: 1687592758284
+created: 1686315186409
+url: "{{ _.url_base }}/api/company"
+name: Company
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "0"
+    disabled: true
+    id: pair_e748c41212474ef5a4c1f63dcb33a339
+  - id: pair_48b20c9872a74608b032f24579462bd0
+    name: taxId
+    value: "04438840139"
+    description: ""
+    disabled: true
+  - id: pair_1b7f909c10804aee889a37dd5bb2ecf5
+    name: name
+    value: raul
+    description: ""
+    disabled: true
+headers:
+  - name: accept
+    value: application/json
+authentication: {}
+metaSortKey: -1687037893514.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_14a1b3e201834e95a5207965cef3aed2
+type: Request
+parentId: fld_4a049d1c8281435cb48968fd1ea9acb4
+modified: 1687597510217
+created: 1687597486798
+url: "{{ _.url_base }}/api/question/1"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"question": "Qual o nome do Passarinho que fica no pasto 2?",
+    	"type": "P",
+    	"activityType":{
+    		"id": 1
+    	}
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687461952638.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

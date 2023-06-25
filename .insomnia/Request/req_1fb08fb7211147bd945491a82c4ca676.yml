@@ -1,0 +1,29 @@
+_id: req_1fb08fb7211147bd945491a82c4ca676
+type: Request
+parentId: fld_a8688f3a0595405f95974c791ca9d9a6
+modified: 1687580204623
+created: 1687580195541
+url: "{{ _.url_base }}/api/user"
+name: Get all
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 60 %}"
+  disabled: true
+metaSortKey: -1687038183625.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

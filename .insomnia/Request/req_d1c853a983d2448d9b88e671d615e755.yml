@@ -1,0 +1,33 @@
+_id: req_d1c853a983d2448d9b88e671d615e755
+type: Request
+parentId: fld_1110173767a14adab09064d9e442b2c9
+modified: 1687594647862
+created: 1687097072172
+url: "{{ _.url_base }}/api/activity-type"
+name: ActivityType
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_1c67b31a124d4eb9bacb51c75c1f03e1
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1685136555615.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

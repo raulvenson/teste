@@ -1,0 +1,36 @@
+_id: req_8d613ff6d29f451f8aa162db29b8e6a7
+type: Request
+parentId: fld_8d1b923cba2f488d9d762da422896b99
+modified: 1687702663468
+created: 1687092416471
+url: "{{ _.url_base }}/api/activity/3/file/3"
+name: Delete file
+description: ""
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_da8021b53fa649e5a60df4218aca5bc2
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Raul\Desktop\fallconn2.png
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4b8b6a079611455d873fc2ae282e5424',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1687048322197.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

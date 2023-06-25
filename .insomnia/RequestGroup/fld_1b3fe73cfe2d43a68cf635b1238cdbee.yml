@@ -1,0 +1,10 @@
+_id: fld_1b3fe73cfe2d43a68cf635b1238cdbee
+type: RequestGroup
+parentId: wrk_29ba7228a33f4cd8a51d6bc4c9aa7f1d
+modified: 1685398714181
+created: 1685398714181
+name: Mail
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1685398714181
